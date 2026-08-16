@@ -131,6 +131,7 @@ venv.bak/
 dmypy.json
 
 # ty (Astral's type checker)
+.ruff_cache
 .ty/
 
 # Pyre type checker
@@ -146,6 +147,8 @@ dmypy.json
 .terraform*
 .Terraform*
 .terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
 
 tmp*
 .agents-cli-scripts/
